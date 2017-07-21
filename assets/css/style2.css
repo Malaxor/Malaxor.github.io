@@ -1,0 +1,131 @@
+* {
+	box-sizing: border-box;
+}
+
+body {
+	font: 18px/1.5 Arial, "Helvetica Neue", Helvetica, sans-serif;
+	padding: 0;
+	margin: 0;
+	background-image: url("../images/concrete.jpeg");
+}
+
+/*Global */
+.container {
+	width: 75%;
+	margin: auto;
+	overflow: hidden;
+}
+
+
+header {
+	background-color: #fff;
+	border-bottom: 2px solid #ccc;
+	padding: 0px;
+	height: 114px;
+}
+
+header a {
+	color: gray;
+	text-decoration: none;
+	font-size: 25px;
+
+}
+
+header ul {
+	margin: 0;
+	padding: 0;
+}
+
+header li {
+	float: left;
+	display: inline;
+	padding: 0 15px 0 0; 
+}
+
+nav {
+	float: right;
+	margin-top: 30px;
+	margin-right: 85px;
+}
+
+#name {
+	float: left;
+	background-color: #4aaaa5;
+	color: white;
+	padding: 5px 30px 5px 30px;
+}
+
+
+.portfolio {
+	background-color: #fff;
+	padding: 30px 30px;
+	width: 50%;
+	margin-top: 40px;
+	margin-bottom: 40px;
+	float: left;
+}
+
+.portfolio h2 {
+	color: #4aaaa5;
+	letter-spacing: .5px;
+	border-bottom: 4px groove #fff;
+}	
+
+.portpics {
+	position: relative;
+}
+
+.portpics img {
+	height: 170px;
+	width: 170px;
+}
+
+.portname {
+	position: absolute;
+	width: 170px;
+	background-color: #4aaaa5;
+	text-align: center;
+	font-size: 30px;
+	bottom: 15px;
+}
+ 
+.portname a {
+	text-decoration: none;
+	color: white;
+} 
+
+
+.float-right {
+	float: right;
+}
+
+
+.connect {
+	background-color: #fff;
+	padding: 30px 30px;
+	width: 35%;
+	margin-top: 40px;
+	margin-right: 100px;
+	float: right;
+	text-align: center;
+}
+
+.connect h2 {
+	color: #4aaaa5;
+	letter-spacing: .5px;
+	border-bottom: 4px groove #fff;
+}
+
+
+.boxes img {
+	height: 70px;
+	width: 70px;
+}
+
+footer {
+	text-align: center;
+	font-size: 15px;
+	border-top: 5px solid #4aaaa5;
+	background-color: #666666;
+	padding-bottom: 5px;
+}

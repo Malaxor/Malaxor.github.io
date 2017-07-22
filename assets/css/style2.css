@@ -73,6 +73,7 @@ nav {
 
 .portpics {
 	position: relative;
+	float: left;
 }
 
 .portpics img {
